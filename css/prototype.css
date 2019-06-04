@@ -4,7 +4,16 @@
     float: left;
     padding-right: 2%;
     padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+@media screen and (max-width: 740px) {
+  .logo {
+    height: 10%;
+    width: 10%;
     padding-top: 1%;
+    padding-bottom: 1%;
+  }
 }
 
 /* Add a black background color to the top navigation */
@@ -46,8 +55,6 @@
 
 
 
-
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1400px) {
   .topnav a:not(:first-child) {display: none;}
@@ -65,6 +72,7 @@
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -72,6 +80,11 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  #forside {
+    margin-top: 14%;
+  }
+  }
 
 
 .forsidebillede {
@@ -96,6 +109,9 @@
 @media screen and (max-width: 600px) {
   .tekst1 {
     font-size: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -5px;
   }
 }
 
@@ -111,6 +127,7 @@
   .tekst2 {
     font-size: 22px;
     padding-top: -10px;
+    margin-bottom: -5px;
   }
 }
 
@@ -220,12 +237,17 @@
 #myVideo {
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 99.8%;
   height: auto;
-  border: 1px solid grey;
+  border: 2px solid #3f5b58;
+  border-radius: 2px;
 }
 
-
+@media screen and (max-width: 600px) {
+  #myVideo {
+    width: 99.5%;
+  }
+  }
 
 
 /* ------ Informations pop up ------ */
@@ -288,6 +310,14 @@
   box-shadow: 2px 2px #ddd;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+  #myBtn {
+
+  width: 90%;
+  margin-left: 5%;
+  }
 }
 
 .maphub {
