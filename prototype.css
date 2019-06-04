@@ -40,6 +40,8 @@
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+  font-size: 30px;
+  padding: 2%;
 }
 
 
@@ -100,14 +102,14 @@
   font-weight: bold;
 }
 
+
 .tekst2 {
   font-size: 18px;
   text-align: center;
-  padding-left: 350px;
-  padding-right: 350px;
-  margin-top: -20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: -2%;
 }
-
 
 
 .container{
@@ -157,6 +159,7 @@
 
 .content-image{
   width: 100%;
+  height: auto;
 }
 
 .content-details {
